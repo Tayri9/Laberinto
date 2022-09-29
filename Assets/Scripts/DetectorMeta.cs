@@ -31,7 +31,7 @@ public class DetectorMeta : MonoBehaviour
             //Bloquear jugador para que no se mueva al llegar a la meta
             other.GetComponent<MovimientoJugador>().enabled = false;
             estaJugando = false;
-            textLabelTime.text = tiempoPartida.ToString();            
+            textLabelTime.text = tiempoPartida.ToString();
         }
     }
 
