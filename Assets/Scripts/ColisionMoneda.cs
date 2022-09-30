@@ -21,7 +21,7 @@ public class ColisionMoneda : MonoBehaviour
             contadorMoneda++;
 
             //Muestro el contador de monedas en el Label que se activa al llegar a la meta
-            textLabelMonedas.text = contadorMoneda.ToString();
+            textLabelMonedas.text = contadorMoneda.ToString() + " / 16";
         }
     }
 }
