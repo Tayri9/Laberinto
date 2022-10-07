@@ -1,7 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using TMPro;
+using TMPro; 
 
 public class DetectorMeta : MonoBehaviour
 {
@@ -30,7 +30,7 @@ public class DetectorMeta : MonoBehaviour
             pantallaFinal.SetActive(true);
             //Bloquear jugador para que no se mueva al llegar a la meta
             other.GetComponent<MovimientoJugador>().enabled = false;
-            estaJugando = false;
+            estaJugando = false;            
             textLabelTime.text = tiempoPartida.ToString();
         }
     }
